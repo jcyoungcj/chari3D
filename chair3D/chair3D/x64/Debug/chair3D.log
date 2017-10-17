@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/8/15 22:23:55。
+     1>项目“E:\代码\chair3D\chair3D\chair3D.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\chair3D.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt chair3DDlg.cpp
+         chair3DDlg.cpp
+     1>chair3DDlg.cpp(1475): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>chair3DDlg.cpp(1621): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\代码\chair3D\x64\Debug\chair3D.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib GxIAPI.lib DxImageProc.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\代码\chair3D\x64\Debug\chair3D.pdb" /SUBSYSTEM:WINDOWS /STACK:"100000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\代码\chair3D\x64\Debug\chair3D.lib" /MACHINE:X64 x64\Debug\chair3D.res
+         x64\Debug\chair3D.obj
+         x64\Debug\chair3DDlg.obj
+         x64\Debug\FileVersion.obj
+         x64\Debug\indexTable.obj
+         x64\Debug\skeleton.obj
+         x64\Debug\stdafx.obj
+         chair3D.vcxproj -> E:\代码\chair3D\x64\Debug\chair3D.exe
+     1>已完成生成项目“E:\代码\chair3D\chair3D\chair3D.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.71

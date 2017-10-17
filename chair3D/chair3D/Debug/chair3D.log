@@ -1,0 +1,16 @@
+﻿生成启动时间为 2017/7/2 16:06:48。
+     1>项目“E:\代码\chair3D\chair3D\chair3D.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\代码\chair3D\Debug\chair3D.exe" /INCREMENTAL /NOLOGO GxIAPI.lib DxImageProc.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\代码\chair3D\Debug\chair3D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\代码\chair3D\Debug\chair3D.lib" /MACHINE:X86 Debug\chair3D.res
+         Debug\chair3D.obj
+         Debug\chair3DDlg.obj
+         Debug\FileVersion.obj
+         Debug\indexTable.obj
+         Debug\skeleton.obj
+         Debug\stdafx.obj
+     1>opencv_core2413.lib(opencv_core2413.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“E:\代码\chair3D\chair3D\chair3D.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.15
